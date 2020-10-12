@@ -1,0 +1,13 @@
+{% block doc -%}
+<!DOCTYPE html>
+<html>
+{% block html %}
+<head>
+    {% block head %}
+    <title>{% block title %}Flask練習{% endblock %}</title>
+    {% endblock %}
+        <body>{% block body %}{% endblock %}</body>
+</head>
+{% endblock %}
+</html>
+{% endblock doc -%}
